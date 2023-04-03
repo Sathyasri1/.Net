@@ -1,8 +1,11 @@
 Auth:
   project_token: 29a583ef-1d4c-4cb1-aaa0-586bcde66c44
   customer_token: 70b76e8f-ad96-49b9-ad5d-cf1389168167
-SAST:
-  language: dotnet-snyk-sast
-SCA:
-  language: dotnet-snyk-sca
-Secret_Scan: true
+#SAST:
+ # language: dotnet-snyk-sast
+#SCA:
+ # language: dotnet-snyk-sca
+#Secret_Scan: true
+DAST:
+   type: "WEB"
+   URL: "https://github.com/secvulture/dvta"
