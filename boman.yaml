@@ -1,8 +1,0 @@
-Auth:
-  project_token: 277617d0-1abc-4ee8-b069-59de5d41db5e
-  customer_token: 6adf1fb5-cba2-4a30-bf64-6e11d8e99fdc
-SAST:
-  language: semgrep
-SCA:
-  language: dotnet
-Secret_Scan: true
